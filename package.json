@@ -1,0 +1,26 @@
+{
+  "name": "@nutpakorn-cat/construire",
+  "version": "1.0.0",
+  "description": "A build and deployment tool for AWS Lambda",
+  "main": "src/index.js",
+  "bin": {
+    "@nutpakorn-cat/construire": "bin/construire",
+    "construire": "bin/construire"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "construire"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "esm": "^3.2.25",
+    "ncp": "^2.0.0",
+    "rimraf": "^3.0.2",
+    "sync-exec": "^0.6.2"
+  }
+}
