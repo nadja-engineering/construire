@@ -15,7 +15,7 @@
     "construire"
   ],
   "author": "nutpakorn-cat",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.0",
     "esm": "^3.2.25",
