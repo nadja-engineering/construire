@@ -1,7 +1,7 @@
 {
   "name": "@nutpakorn-cat/construire",
   "version": "1.0.0",
-  "description": "A build and deployment tool for AWS Lambda",
+  "description": "An astonishing build and deployment tool for AWS Lambda",
   "main": "src/index.js",
   "bin": {
     "@nutpakorn-cat/construire": "bin/construire",
@@ -14,7 +14,7 @@
     "cli",
     "construire"
   ],
-  "author": "",
+  "author": "nutpakorn-cat",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
