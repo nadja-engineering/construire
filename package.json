@@ -1,10 +1,9 @@
 {
-  "name": "@nutpakorn-cat/construire",
+  "name": "construire",
   "version": "1.0.0",
   "description": "An astonishing build and deployment tool for AWS Lambda",
   "main": "src/index.js",
   "bin": {
-    "@nutpakorn-cat/construire": "bin/construire",
     "construire": "bin/construire"
   },
   "scripts": {
