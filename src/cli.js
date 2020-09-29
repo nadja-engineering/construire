@@ -1,5 +1,3 @@
-import { runInContext } from 'vm';
-
 const exec = require('sync-exec');
 const chalk = require('chalk');
 const fs = require('fs');
