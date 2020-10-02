@@ -1,6 +1,6 @@
 {
   "name": "construire",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An astonishing build and deployment tool for AWS Lambda",
   "main": "src/index.js",
   "bin": {
