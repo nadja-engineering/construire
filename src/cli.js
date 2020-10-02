@@ -29,7 +29,14 @@ const runCommand = async () => {
     contents += '\n(async () => {let output = await exports.' + functionName + '();console.log(output);})();';
 
     fs.writeFileSync('./tmp-construire-builds/index.js', contents);
-    console.log(exec('node tmp-construire-builds/index').stdout);
+    const result = exec('node tmp-construire-builds/index');
+
+    if (result.stdout == '') {
+        console.log(result.stderr);
+    } else {
+        console.log(result.stdout);
+    }
+
     rmdir.sync('./tmp-construire-builds');
 }
 
